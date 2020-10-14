@@ -2,12 +2,7 @@ pragma solidity >=0.4.0 <0.6.0;
 
 /** @title calculator. */
 contract Calculator {
-    /** @dev Calculates .
-      * @param w Width of the rectangle.
-      * @param h Height of the rectangle.
-      * @return s The calculated surface.
-      * @return p The calculated perimeter.
-      */
+    
 
  constructor() public {
         owner = msg.sender;
