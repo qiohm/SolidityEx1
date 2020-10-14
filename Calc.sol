@@ -1,6 +1,13 @@
+// SPDX-License-Identifier : MIT 
 pragma solidity 0.6.0;
+pragma experimental ABIEncoderV2;
 
-/** @title calculator. */
+/** @title calculator */
+/** @author Alyra EthersJs Course */
+/** @notice you can calculate addition, substraction, multiplication, division of two numbers*/
+/** @param uint put in two integers you want to calculate separated with a coma (,)*/
+/** @return will return the result of operation*/
+/** */
 contract Calculator {
     
         address private owner;
